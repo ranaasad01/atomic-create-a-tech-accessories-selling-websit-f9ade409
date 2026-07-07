@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "shop": "Tienda",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "shopNow": "Comprar ahora"
+  },
+  "footer": {
+    "tagline": "Accesorios tecnológicos premium para cualquier configuración. Equipos de calidad que te mantienen conectado y productivo.",
+    "shop": "Tienda",
+    "company": "Empresa",
+    "support": "Soporte",
+    "copyright": "© {year} {name}. Todos los derechos reservados."
+  },
+  "hero": {
+    "badge": "Nuevos productos",
+    "title": "Accesorios tecnológicos premium para cualquier configuración",
+    "subtitle": "Cables, cargadores, fundas, equipos de audio y periféricos diseñados para el rendimiento. Envío rápido, calidad premium.",
+    "cta": "Comprar ahora",
+    "ctaSecondary": "Ver ofertas",
+    "cta_primary": "Comprar accesorios",
+    "cta_secondary": "Explorar ofertas",
+    "headline1": "Tecnología que se adapta a tu vida",
+    "headline2": "Accesorios premium",
+    "headline3": "Diseñados para durar",
+    "subtext": "Descubre accesorios tecnológicos esenciales diseñados para rendimiento y estilo."
+  },
+  "categories": {
+    "title": "Comprar por categoría",
+    "subtitle": "Encuentra exactamente lo que necesitas en nuestra selección curada de accesorios tecnológicos.",
+    "eyebrow": "Comprar por tipo",
+    "heading": "Encuentra lo que necesitas",
+    "view_all": "Ver todas las categorías"
+  },
+  "featured": {
+    "title": "Productos destacados",
+    "subtitle": "Favoritos seleccionados a mano y amados por miles de clientes.",
+    "addToCart": "Añadir al carrito",
+    "viewAll": "Ver todos los productos",
+    "outOfStock": "Agotado",
+    "sale": "Oferta",
+    "new": "Nuevo",
+    "bestSeller": "Más vendido",
+    "topRated": "Mejor valorado",
+    "deal": "Oferta especial",
+    "popular": "Popular",
+    "eyebrow": "Favoritos de clientes",
+    "heading": "Más vendidos este mes",
+    "subtext": "Confiado por miles. Disponible ahora.",
+    "view_all": "Ver todos los bestsellers"
+  },
+  "deals": {
+    "badge": "Tiempo Limitado",
+    "title": "Ofertas Relámpago",
+    "subtitle": "Hasta 40% de descuento en artículos seleccionados. Cógelos antes de que se agoten.",
+    "cta": "Ver Todas las Ofertas",
+    "endsIn": "Termina en"
+  },
+  "testimonials": {
+    "title": "Amado por Miles",
+    "subtitle": "Reseñas reales de clientes reales que confían en TechGear Store.",
+    "eyebrow": "Amado por clientes",
+    "heading": "Mira lo que la gente está diciendo",
+    "subtext": "Reseñas reales de usuarios reales."
+  },
+  "newsletter": {
+    "badge": "Mantente Actualizado",
+    "title": "Obtén Ofertas Exclusivas",
+    "subtitle": "Suscríbete para acceso anticipado a nuevos productos, ofertas relámpago y consejos tecnológicos entregados en tu bandeja de entrada.",
+    "placeholder": "Ingresa tu dirección de correo",
+    "cta": "Suscribirse",
+    "disclaimer": "Sin spam, nunca. Desuscribirse en cualquier momento."
+  },
+  "shop": {
+    "title": "Todos los Productos",
+    "subtitle": "Explora nuestro catálogo completo de accesorios tecnológicos premium.",
+    "searchPlaceholder": "Buscar productos...",
+    "sortBy": "Ordenar por",
+    "filterBy": "Filtrar",
+    "allCategories": "Todas las Categorías",
+    "priceRange": "Rango de Precio",
+    "inStock": "Solo en Stock",
+    "clearFilters": "Limpiar Filtros",
+    "noResults": "No se encontraron productos",
+    "noResultsSubtitle": "Intenta ajustar tu búsqueda o filtros.",
+    "addToCart": "Agregar al Carrito",
+    "outOfStock": "Agotado",
+    "results": "{count} productos"
+  },
+  "product": {
+    "addToCart": "Agregar al Carrito",
+    "addToWishlist": "Guardar en Lista de Deseos",
+    "outOfStock": "Agotado",
+    "inStock": "En Stock",
+    "specifications": "Especificaciones",
+    "reviews": "Reseñas de Clientes",
+    "relatedProducts": "También Te Podría Gustar",
+    "quantity": "Cantidad",
+    "sku": "SKU",
+    "category": "Categoría",
+    "share": "Compartir"
+  },
+  "cart": {
+    "title": "Tu Carrito",
+    "empty": "Tu carrito está vacío",
+    "emptySubtitle": "Agrega algunos productos para comenzar.",
+    "continueShopping": "Continuar Comprando",
+    "remove": "Eliminar",
+    "quantity": "Cantidad",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "shippingFree": "Gratis",
+    "tax": "Impuesto",
+    "total": "Total",
+    "checkout": "Proceder al Pago",
+    "promoCode": "Código Promocional",
+    "apply": "Aplicar"
+  },
+  "checkout": {
+    "title": "Pago",
+    "contact": "Información de Contacto",
+    "shipping": "Dirección de Envío",
+    "payment": "Detalles de Pago",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "address": "Dirección",
+    "city": "Ciudad",
+    "state": "Estado",
+    "zip": "Código Postal",
+    "country": "País",
+    "cardNumber": "Número de Tarjeta",
+    "expiry": "Fecha de Vencimiento",
+    "cvv": "CVV",
+    "placeOrder": "Realizar Pedido",
+    "orderSummary": "Resumen del Pedido",
+    "backToCart": "Volver al Carrito"
+  },
+  "about": {
+    "badge": "Nuestra Historia",
+    "title": "Hecho para Entusiastas de la Tecnología, por Entusiastas de la Tecnología",
+    "subtitle": "Creamos TechGear Store porque estábamos cansados de accesorios caros y de baja calidad. Nuestra misión es simple: equipos premium a precios justos.",
+    "mission": "Nuestra Misión",
+    "missionText": "Hacer que los accesorios tecnológicos premium sean accesibles para todos, sin comprometer la calidad ni el presupuesto.",
+    "values": "Nuestros Valores",
+    "team": "Conoce al Equipo",
+    "stats": {
+      "customers": "Clientes Satisfechos",
+      "products": "Productos",
+      "countries": "Países Enviados",
+      "rating": "Calificación Promedio"
+    }
+  },
+  "contact": {
+    "badge": "Ponte en Contacto",
+    "title": "Estamos Aquí para Ayudarte",
+    "subtitle": "¿Tienes una pregunta sobre un pedido, producto u otra cosa? Nuestro equipo está listo para asistirte.",
+    "name": "Tu Nombre",
+    "email": "Correo Electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "success": "¡Mensaje enviado! Nos pondremos en contacto dentro de 24 horas.",
+    "info": "Información de Contacto",
+    "hours": "Horario de Atención",
+    "hoursValue": "Lun-Vie, 9am-6pm PST"
+  },
+  "cta": {
+    "badge": "Tiempo limitado",
+    "button_primary": "Comprar ahora",
+    "button_secondary": "Más información",
+    "heading": "Mejora tu configuración hoy",
+    "subtext": "Obtén accesorios premium a precios imbatibles."
+  },
+  "values": {
+    "eyebrow": "Por qué elegirnos",
+    "heading": "Calidad en la que puedes confiar",
+    "subtext": "Envío rápido, productos auténticos y soporte experto."
+  }
+}

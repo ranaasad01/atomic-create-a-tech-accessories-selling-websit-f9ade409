@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "shopNow": "Shop Now"
+  },
+  "footer": {
+    "tagline": "Premium tech accessories for every setup. Quality gear that keeps you connected and productive.",
+    "shop": "Shop",
+    "company": "Company",
+    "support": "Support",
+    "copyright": "© {year} {name}. All rights reserved."
+  },
+  "hero": {
+    "badge": "New Arrivals",
+    "title": "Premium Tech Accessories for Every Setup",
+    "subtitle": "Cables, chargers, cases, audio gear, and peripherals built for performance. Fast shipping, premium quality.",
+    "cta": "Shop Now",
+    "ctaSecondary": "View Deals",
+    "cta_primary": "Shop accessories",
+    "cta_secondary": "Explore deals",
+    "headline1": "Tech that fits your life",
+    "headline2": "Premium accessories",
+    "headline3": "Built to last",
+    "subtext": "Discover essential tech accessories designed for performance and style."
+  },
+  "categories": {
+    "title": "Shop by Category",
+    "subtitle": "Find exactly what you need across our curated selection of tech accessories.",
+    "eyebrow": "Shop by type",
+    "heading": "Find what you need",
+    "view_all": "View all categories"
+  },
+  "featured": {
+    "title": "Featured Products",
+    "subtitle": "Hand-picked favorites loved by thousands of customers.",
+    "addToCart": "Add to Cart",
+    "viewAll": "View All Products",
+    "outOfStock": "Out of Stock",
+    "sale": "Sale",
+    "new": "New",
+    "bestSeller": "Best Seller",
+    "topRated": "Top Rated",
+    "deal": "Deal",
+    "popular": "Popular",
+    "eyebrow": "Customer favorites",
+    "heading": "Best sellers this month",
+    "subtext": "Trusted by thousands. In stock now.",
+    "view_all": "See all bestsellers"
+  },
+  "deals": {
+    "badge": "Limited Time",
+    "title": "Flash Deals",
+    "subtitle": "Up to 40% off on selected items. Grab them before they're gone.",
+    "cta": "Shop All Deals",
+    "endsIn": "Ends in"
+  },
+  "testimonials": {
+    "title": "Loved by Thousands",
+    "subtitle": "Real reviews from real customers who trust TechGear Store.",
+    "eyebrow": "Loved by customers",
+    "heading": "See what people are saying",
+    "subtext": "Real reviews from real users."
+  },
+  "newsletter": {
+    "badge": "Stay Updated",
+    "title": "Get Exclusive Deals",
+    "subtitle": "Subscribe for early access to new products, flash sales, and tech tips delivered to your inbox.",
+    "placeholder": "Enter your email address",
+    "cta": "Subscribe",
+    "disclaimer": "No spam, ever. Unsubscribe anytime."
+  },
+  "shop": {
+    "title": "All Products",
+    "subtitle": "Browse our full catalog of premium tech accessories.",
+    "searchPlaceholder": "Search products...",
+    "sortBy": "Sort by",
+    "filterBy": "Filter",
+    "allCategories": "All Categories",
+    "priceRange": "Price Range",
+    "inStock": "In Stock Only",
+    "clearFilters": "Clear Filters",
+    "noResults": "No products found",
+    "noResultsSubtitle": "Try adjusting your search or filters.",
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "results": "{count} products"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "addToWishlist": "Save to Wishlist",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "specifications": "Specifications",
+    "reviews": "Customer Reviews",
+    "relatedProducts": "You Might Also Like",
+    "quantity": "Quantity",
+    "sku": "SKU",
+    "category": "Category",
+    "share": "Share"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "emptySubtitle": "Add some products to get started.",
+    "continueShopping": "Continue Shopping",
+    "remove": "Remove",
+    "quantity": "Qty",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "shippingFree": "Free",
+    "tax": "Tax",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "promoCode": "Promo Code",
+    "apply": "Apply"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "contact": "Contact Information",
+    "shipping": "Shipping Address",
+    "payment": "Payment Details",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "zip": "ZIP Code",
+    "country": "Country",
+    "cardNumber": "Card Number",
+    "expiry": "Expiry Date",
+    "cvv": "CVV",
+    "placeOrder": "Place Order",
+    "orderSummary": "Order Summary",
+    "backToCart": "Back to Cart"
+  },
+  "about": {
+    "badge": "Our Story",
+    "title": "Built for Tech Enthusiasts, by Tech Enthusiasts",
+    "subtitle": "We started TechGear Store because we were tired of overpriced, low-quality accessories. Our mission is simple: premium gear at fair prices.",
+    "mission": "Our Mission",
+    "missionText": "To make premium tech accessories accessible to everyone, without compromising on quality or breaking the bank.",
+    "values": "Our Values",
+    "team": "Meet the Team",
+    "stats": {
+      "customers": "Happy Customers",
+      "products": "Products",
+      "countries": "Countries Shipped",
+      "rating": "Average Rating"
+    }
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "We're Here to Help",
+    "subtitle": "Have a question about an order, product, or anything else? Our team is ready to assist.",
+    "name": "Your Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent! We'll get back to you within 24 hours.",
+    "info": "Contact Information",
+    "hours": "Business Hours",
+    "hoursValue": "Mon-Fri, 9am-6pm PST"
+  },
+  "cta": {
+    "badge": "Limited time",
+    "button_primary": "Shop now",
+    "button_secondary": "Learn more",
+    "heading": "Upgrade your setup today",
+    "subtext": "Get premium accessories at unbeatable prices."
+  },
+  "values": {
+    "eyebrow": "Why choose us",
+    "heading": "Quality you can trust",
+    "subtext": "Fast shipping, authentic products, and expert support."
+  }
+}
