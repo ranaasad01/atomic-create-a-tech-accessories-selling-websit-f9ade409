@@ -165,8 +165,8 @@ const stats = [
 
 function StarRating({ rating, count }: { rating: number; count: number }) {
   return (
-    <div className="flex items-center gap-1.5">
-      <div className="flex items-center gap-0.5">
+    <div className="flex items-center gap-1.5" data-atomic-id="amgf7s">
+      <div className="flex items-center gap-0.5" data-atomic-id="a1iyj497">
         {[1, 2, 3, 4, 5].map((i) => (
           <Star
             key={i}
@@ -178,7 +178,7 @@ function StarRating({ rating, count }: { rating: number; count: number }) {
           />
         ))}
       </div>
-      <span className="text-xs text-slate-400">
+      <span className="text-xs text-slate-400" data-atomic-id="a136mujg">
         {rating.toFixed(1)} ({count})
       </span>
     </div>
@@ -208,20 +208,22 @@ function ProductCard({
       {product.badge && (
         <div
           className={`absolute top-3 left-3 z-10 px-2.5 py-1 rounded-full text-xs font-semibold text-white ${product.badgeColor}`}
-        >
+          data-atomic-id="ao6hnaz">
           {product.badge}
         </div>
       )}
-
       {/* Discount */}
       {discount > 0 && (
-        <div className="absolute top-3 right-3 z-10 px-2 py-1 rounded-full text-xs font-bold bg-rose-500/20 text-rose-400 border border-rose-500/30">
+        <div
+          className="absolute top-3 right-3 z-10 px-2 py-1 rounded-full text-xs font-bold bg-rose-500/20 text-rose-400 border border-rose-500/30"
+          data-atomic-id="a9e0fjz">
           -{discount}%
         </div>
       )}
-
       {/* Image */}
-      <div className="relative h-52 bg-gradient-to-br from-slate-800 to-slate-900 overflow-hidden">
+      <div
+        className="relative h-52 bg-gradient-to-br from-slate-800 to-slate-900 overflow-hidden"
+        data-atomic-id="aouduu6">
         <img
           src={product.image}
           alt={product.name}
@@ -229,30 +231,39 @@ function ProductCard({
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).style.display = "none";
           }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#111827]/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          data-atomic-id="a1pu1ndn" />
+        <div
+          className="absolute inset-0 bg-gradient-to-t from-[#111827]/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          data-atomic-id="a1pvgd7n" />
       </div>
-
       {/* Content */}
-      <div className="p-5">
-        <p className="text-xs text-[#22D3EE] font-medium mb-1 tracking-wide uppercase">
+      <div className="p-5" data-atomic-id="aox7j36">
+        <p
+          className="text-xs text-[#22D3EE] font-medium mb-1 tracking-wide uppercase"
+          data-atomic-id="a1dbbv1u">
           {product.category}
         </p>
-        <h3 className="text-white font-semibold text-sm leading-snug mb-2 line-clamp-2">
+        <h3
+          className="text-white font-semibold text-sm leading-snug mb-2 line-clamp-2"
+          data-atomic-id="a1spfsin">
           {product.name}
         </h3>
-        <p className="text-slate-400 text-xs leading-relaxed mb-3 line-clamp-2">
+        <p
+          className="text-slate-400 text-xs leading-relaxed mb-3 line-clamp-2"
+          data-atomic-id="a1dbbyeu">
           {product.description}
         </p>
         <StarRating rating={product.rating} count={product.reviewCount} />
 
-        <div className="flex items-center justify-between mt-4">
-          <div className="flex items-baseline gap-2">
-            <span className="text-white font-bold text-lg">
+        <div
+          className="flex items-center justify-between mt-4"
+          data-atomic-id="a4ibyb1">
+          <div className="flex items-baseline gap-2" data-atomic-id="aybn4pc">
+            <span className="text-white font-bold text-lg" data-atomic-id="ayu35gi">
               ${product.price.toFixed(2)}
             </span>
             {product.originalPrice && (
-              <span className="text-slate-500 text-sm line-through">
+              <span className="text-slate-500 text-sm line-through" data-atomic-id="a155qbtc">
                 ${product.originalPrice.toFixed(2)}
               </span>
             )}
@@ -280,13 +291,21 @@ export default function HomePage() {
     shouldReduceMotion ? {} : { variants };
 
   return (
-    <main className="bg-[#0F172A] text-white overflow-x-hidden">
+    <main
+      className="bg-[#0F172A] text-white overflow-x-hidden"
+      data-atomic-id="ayd58ec">
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
-      <section className="relative min-h-screen flex items-center pt-20 pb-16 overflow-hidden">
+      <section
+        className="relative min-h-screen flex items-center pt-20 pb-16 overflow-hidden"
+        data-atomic-id="a12bmc8p">
         {/* Background glows */}
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-[#6366F1]/10 rounded-full blur-[120px]" />
-          <div className="absolute top-1/3 left-1/4 w-[400px] h-[400px] bg-[#22D3EE]/8 rounded-full blur-[100px]" />
+        <div className="absolute inset-0 pointer-events-none" data-atomic-id="abokm6k">
+          <div
+            className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-[#6366F1]/10 rounded-full blur-[120px]"
+            data-atomic-id="a1joo0sv" />
+          <div
+            className="absolute top-1/3 left-1/4 w-[400px] h-[400px] bg-[#22D3EE]/8 rounded-full blur-[100px]"
+            data-atomic-id="a1jq2uxd" />
           {/* Subtle grid */}
           <div
             className="absolute inset-0 opacity-[0.03]"
@@ -295,150 +314,22 @@ export default function HomePage() {
                 "linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)",
               backgroundSize: "60px 60px",
             }}
-          />
+            data-atomic-id="a1jswj6d" />
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            {/* Left: copy */}
-            <motion.div
-              variants={staggerContainer}
-              initial="hidden"
-              animate="visible"
-              className="flex flex-col"
-            >
-              <motion.div variants={fadeInUp} className="mb-6">
-                <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#6366F1]/15 border border-[#6366F1]/30 text-[#A5B4FC] text-sm font-medium">
-                  <Sparkles className="w-4 h-4" />
-                  {t("hero.badge")}
-                </span>
-              </motion.div>
-
-              <motion.h1
-                variants={fadeInUp}
-                className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.05] text-balance mb-6"
-              >
-                {t("hero.headline1")}{" "}
-                <span className="bg-gradient-to-r from-[#6366F1] to-[#22D3EE] bg-clip-text text-transparent">
-                  {t("hero.headline2")}
-                </span>{" "}
-                {t("hero.headline3")}
-              </motion.h1>
-
-              <motion.p
-                variants={fadeInUp}
-                className="text-slate-400 text-lg leading-relaxed mb-8 max-w-lg text-pretty"
-              >
-                {t("hero.subtext")}
-              </motion.p>
-
-              <motion.div
-                variants={fadeInUp}
-                className="flex flex-wrap gap-4 mb-12"
-              >
-                <Link
-                  href="/shop"
-                  className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-[#6366F1] hover:bg-[#5558E8] text-white font-semibold text-sm shadow-[0_0_24px_rgba(99,102,241,0.4)] hover:shadow-[0_0_32px_rgba(99,102,241,0.6)] transition-all duration-300"
-                >
-                  {t("hero.cta_primary")}
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-                <Link
-                  href="/shop"
-                  className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-white/8 hover:bg-white/12 border border-white/10 text-white font-semibold text-sm transition-all duration-300"
-                >
-                  {t("hero.cta_secondary")}
-                </Link>
-              </motion.div>
-
-              {/* Stats row */}
-              <motion.div
-                variants={staggerContainer}
-                className="flex flex-wrap gap-8"
-              >
-                {stats.map((s) => (
-                  <motion.div key={s.label} variants={fadeInUp}>
-                    <p className="text-2xl font-bold text-white">{s.value}</p>
-                    <p className="text-xs text-slate-400 mt-0.5">{s.label}</p>
-                  </motion.div>
-                ))}
-              </motion.div>
-            </motion.div>
-
-            {/* Right: hero product showcase */}
-            <motion.div
-              variants={slideInRight}
-              initial="hidden"
-              animate="visible"
-              className="relative hidden lg:block"
-            >
-              {/* Main card */}
-              <div className="relative z-10 bg-[#111827] border border-white/10 rounded-3xl p-6 shadow-[0_32px_80px_rgba(0,0,0,0.5)]">
-                <div className="relative h-72 rounded-2xl overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900 mb-5">
-                  <img
-                    src="https://m.media-amazon.com/images/I/516szWmX2ZL._AC_UF894,1000_QL80_.jpg"
-                    alt="GaN 100W USB-C Charger"
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      (e.currentTarget as HTMLImageElement).style.display = "none";
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#111827]/50 to-transparent" />
-                  <div className="absolute top-4 left-4 px-3 py-1.5 rounded-full bg-[#22D3EE] text-[#0F172A] text-xs font-bold">
-                    Top Rated
-                  </div>
-                </div>
-                <h3 className="text-white font-bold text-lg mb-1">
-                  GaN 100W USB-C Charger
-                </h3>
-                <p className="text-slate-400 text-sm mb-4">
-                  Ultra-compact. Three ports. One brick.
-                </p>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <span className="text-2xl font-extrabold text-white">$59.99</span>
-                    <span className="text-slate-500 text-sm line-through ml-2">$79.99</span>
-                  </div>
-                  <StarRating rating={4.9} count={487} />
-                </div>
-              </div>
-
-              {/* Floating accent cards */}
-              <motion.div
-                animate={{ y: [0, -8, 0] }}
-                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -top-6 -right-6 bg-[#1E293B] border border-white/10 rounded-2xl p-4 shadow-[0_8px_32px_rgba(0,0,0,0.4)] flex items-center gap-3"
-              >
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#6366F1] to-[#22D3EE] flex items-center justify-center">
-                  <Zap className="w-5 h-5 text-white" />
-                </div>
-                <div>
-                  <p className="text-white text-xs font-semibold">Fast Charge</p>
-                  <p className="text-slate-400 text-xs">100W GaN III</p>
-                </div>
-              </motion.div>
-
-              <motion.div
-                animate={{ y: [0, 8, 0] }}
-                transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-                className="absolute -bottom-4 -left-6 bg-[#1E293B] border border-white/10 rounded-2xl p-4 shadow-[0_8px_32px_rgba(0,0,0,0.4)] flex items-center gap-3"
-              >
-                <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
-                  <Check className="w-5 h-5 text-emerald-400" />
-                </div>
-                <div>
-                  <p className="text-white text-xs font-semibold">Free Returns</p>
-                  <p className="text-slate-400 text-xs">30-day guarantee</p>
-                </div>
-              </motion.div>
-            </motion.div>
-          </div>
+        <div
+          className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full"
+          data-atomic-id="abpzgb2">
+          <div
+            className="grid lg:grid-cols-2 gap-16 items-center"
+            data-atomic-id="a1qgjl5d">Discover essential tech accessories designed for performance and style. Discounted offers!</div>
         </div>
       </section>
-
       {/* ── Categories ───────────────────────────────────────────────────── */}
-      <section id="categories" className="py-20 relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="categories" className="py-20 relative" data-atomic-id="apjl0u5">
+        <div
+          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+          data-atomic-id="ap6wwr2">
           <motion.div
             variants={staggerContainer}
             initial="hidden"
@@ -446,11 +337,15 @@ export default function HomePage() {
             viewport={{ once: true, margin: "-80px" }}
           >
             <motion.div variants={fadeInUp} className="mb-12 flex items-end justify-between flex-wrap gap-4">
-              <div>
-                <p className="text-[#22D3EE] text-sm font-semibold uppercase tracking-widest mb-2">
+              <div data-atomic-id="a4417zr">
+                <p
+                  className="text-[#22D3EE] text-sm font-semibold uppercase tracking-widest mb-2"
+                  data-atomic-id="a18sldyf">
                   {t("categories.eyebrow")}
                 </p>
-                <h2 className="text-4xl font-extrabold tracking-tight text-white">
+                <h2
+                  className="text-4xl font-extrabold tracking-tight text-white"
+                  data-atomic-id="a1lle8c3">
                   {t("categories.heading")}
                 </h2>
               </div>
@@ -462,8 +357,10 @@ export default function HomePage() {
               </Link>
             </motion.div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {categories.map((cat) => {
+            <div
+              className="grid grid-cols-2 md:grid-cols-4 gap-4"
+              data-atomic-id="ami9rzq">
+              {categories.map((cat, __atomicIdx) => {
                 const Icon = cat.icon;
                 return (
                   <motion.div key={cat.slug} variants={scaleIn}>
@@ -478,9 +375,18 @@ export default function HomePage() {
                       >
                         <Icon className="w-6 h-6 text-white" />
                       </motion.div>
-                      <div className="text-center">
-                        <p className="text-white font-semibold text-sm">{cat.name}</p>
-                        <p className="text-slate-400 text-xs mt-0.5">{cat.count} items</p>
+                      <div
+                        className="text-center"
+                        data-atomic-id="a17521ty"
+                        data-atomic-instance={__atomicIdx}>
+                        <p
+                          className="text-white font-semibold text-sm"
+                          data-atomic-id="a1poqrpy"
+                          data-atomic-instance={__atomicIdx}>{cat.name}</p>
+                        <p
+                          className="text-slate-400 text-xs mt-0.5"
+                          data-atomic-id="a1poqteg"
+                          data-atomic-instance={__atomicIdx}>{cat.count} items</p>
                       </div>
                     </Link>
                   </motion.div>
@@ -490,13 +396,16 @@ export default function HomePage() {
           </motion.div>
         </div>
       </section>
-
       {/* ── Featured Products ─────────────────────────────────────────────── */}
-      <section id="featured" className="py-20 relative">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-[#6366F1]/6 rounded-full blur-[100px]" />
+      <section id="featured" className="py-20 relative" data-atomic-id="a122k58o">
+        <div className="absolute inset-0 pointer-events-none" data-atomic-id="audx5rt">
+          <div
+            className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-[#6366F1]/6 rounded-full blur-[100px]"
+            data-atomic-id="a1hnttss" />
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+          data-atomic-id="aufbzwb">
           <motion.div
             variants={staggerContainer}
             initial="hidden"
@@ -504,14 +413,20 @@ export default function HomePage() {
             viewport={{ once: true, margin: "-80px" }}
           >
             <motion.div variants={fadeInUp} className="mb-12 flex items-end justify-between flex-wrap gap-4">
-              <div>
-                <p className="text-[#22D3EE] text-sm font-semibold uppercase tracking-widest mb-2">
+              <div data-atomic-id="a1ny6w3o">
+                <p
+                  className="text-[#22D3EE] text-sm font-semibold uppercase tracking-widest mb-2"
+                  data-atomic-id="aotj2dw">
                   {t("featured.eyebrow")}
                 </p>
-                <h2 className="text-4xl font-extrabold tracking-tight text-white">
+                <h2
+                  className="text-4xl font-extrabold tracking-tight text-white"
+                  data-atomic-id="a11qa4ao">
                   {t("featured.heading")}
                 </h2>
-                <p className="text-slate-400 mt-2 max-w-lg text-pretty">
+                <p
+                  className="text-slate-400 mt-2 max-w-lg text-pretty"
+                  data-atomic-id="aotj5qw">
                   {t("featured.subtext")}
                 </p>
               </div>
@@ -523,7 +438,9 @@ export default function HomePage() {
               </Link>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+              data-atomic-id="a1ik1p43">
               {featuredProducts.map((product, i) => (
                 <ProductCard key={product.id} product={product} index={i} />
               ))}
@@ -531,13 +448,21 @@ export default function HomePage() {
           </motion.div>
         </div>
       </section>
-
       {/* ── Value Props ───────────────────────────────────────────────────── */}
-      <section id="features" className="py-20 bg-[#080E1A] relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-[#22D3EE]/5 rounded-full blur-[80px]" />
+      <section
+        id="features"
+        className="py-20 bg-[#080E1A] relative overflow-hidden"
+        data-atomic-id="apaitu4">
+        <div
+          className="absolute inset-0 pointer-events-none"
+          data-atomic-id="a17xoagt">
+          <div
+            className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-[#22D3EE]/5 rounded-full blur-[80px]"
+            data-atomic-id="a48ra5c" />
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+          data-atomic-id="a17z34lb">
           <motion.div
             variants={staggerContainer}
             initial="hidden"
@@ -545,19 +470,27 @@ export default function HomePage() {
             viewport={{ once: true, margin: "-80px" }}
           >
             <motion.div variants={fadeInUp} className="text-center mb-16">
-              <p className="text-[#22D3EE] text-sm font-semibold uppercase tracking-widest mb-3">
+              <p
+                className="text-[#22D3EE] text-sm font-semibold uppercase tracking-widest mb-3"
+                data-atomic-id="au9a21h">
                 {t("values.eyebrow")}
               </p>
-              <h2 className="text-4xl font-extrabold tracking-tight text-white mb-4">
+              <h2
+                className="text-4xl font-extrabold tracking-tight text-white mb-4"
+                data-atomic-id="a42omzl">
                 {t("values.heading")}
               </h2>
-              <p className="text-slate-400 max-w-xl mx-auto text-pretty">
+              <p
+                className="text-slate-400 max-w-xl mx-auto text-pretty"
+                data-atomic-id="au9a5eh">
                 {t("values.subtext")}
               </p>
             </motion.div>
 
             {/* Asymmetric bento layout */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div
+              className="grid grid-cols-1 md:grid-cols-2 gap-6"
+              data-atomic-id="ak80lih">
               {valueProps.map((vp, i) => {
                 const Icon = vp.icon;
                 const isLarge = i === 0;
@@ -570,15 +503,27 @@ export default function HomePage() {
                       isLarge ? "md:col-span-1" : ""
                     }`}
                   >
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-[#6366F1]/5 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                    <div className="relative">
-                      <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#6366F1]/20 to-[#22D3EE]/10 border border-[#6366F1]/20 flex items-center justify-center mb-5">
+                    <div
+                      className="absolute top-0 right-0 w-32 h-32 bg-[#6366F1]/5 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      data-atomic-id="apbw1xx"
+                      data-atomic-instance={i} />
+                    <div className="relative" data-atomic-id="apdaw2f" data-atomic-instance={i}>
+                      <div
+                        className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#6366F1]/20 to-[#22D3EE]/10 border border-[#6366F1]/20 flex items-center justify-center mb-5"
+                        data-atomic-id="a1yah12y"
+                        data-atomic-instance={i}>
                         <Icon className="w-6 h-6 text-[#6366F1]" />
                       </div>
-                      <h3 className="text-white font-bold text-xl mb-3 tracking-tight">
+                      <h3
+                        className="text-white font-bold text-xl mb-3 tracking-tight"
+                        data-atomic-id="a14vig9g"
+                        data-atomic-instance={i}>
                         {vp.title}
                       </h3>
-                      <p className="text-slate-400 leading-relaxed">{vp.body}</p>
+                      <p
+                        className="text-slate-400 leading-relaxed"
+                        data-atomic-id="a1rnr2tn"
+                        data-atomic-instance={i}>{vp.body}</p>
                     </div>
                   </motion.div>
                 );
@@ -587,13 +532,21 @@ export default function HomePage() {
           </motion.div>
         </div>
       </section>
-
       {/* ── Social Proof / Testimonials ───────────────────────────────────── */}
-      <section id="reviews" className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 left-0 w-[400px] h-[400px] bg-[#6366F1]/6 rounded-full blur-[100px]" />
+      <section
+        id="reviews"
+        className="py-20 relative overflow-hidden"
+        data-atomic-id="acihifk">
+        <div
+          className="absolute inset-0 pointer-events-none"
+          data-atomic-id="a1lhff5t">
+          <div
+            className="absolute top-0 left-0 w-[400px] h-[400px] bg-[#6366F1]/6 rounded-full blur-[100px]"
+            data-atomic-id="apussh0" />
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+          data-atomic-id="a1liu9ab">
           <motion.div
             variants={staggerContainer}
             initial="hidden"
@@ -601,18 +554,26 @@ export default function HomePage() {
             viewport={{ once: true, margin: "-80px" }}
           >
             <motion.div variants={fadeInUp} className="text-center mb-16">
-              <p className="text-[#22D3EE] text-sm font-semibold uppercase tracking-widest mb-3">
+              <p
+                className="text-[#22D3EE] text-sm font-semibold uppercase tracking-widest mb-3"
+                data-atomic-id="am8kmvt">
                 {t("testimonials.eyebrow")}
               </p>
-              <h2 className="text-4xl font-extrabold tracking-tight text-white mb-4">
+              <h2
+                className="text-4xl font-extrabold tracking-tight text-white mb-4"
+                data-atomic-id="anjtyp1">
                 {t("testimonials.heading")}
               </h2>
-              <p className="text-slate-400 max-w-lg mx-auto text-pretty">
+              <p
+                className="text-slate-400 max-w-lg mx-auto text-pretty"
+                data-atomic-id="am8kq8t">
                 {t("testimonials.subtext")}
               </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div
+              className="grid grid-cols-1 md:grid-cols-3 gap-6"
+              data-atomic-id="a1ku9vmz">
               {testimonials.map((t_item, i) => (
                 <motion.div
                   key={t_item.id}
@@ -622,7 +583,10 @@ export default function HomePage() {
                   className="bg-[#111827] border border-white/8 rounded-2xl p-7 hover:border-[#6366F1]/30 transition-all duration-300 shadow-[0_1px_2px_rgba(0,0,0,0.2),0_8px_24px_-8px_rgba(0,0,0,0.4)] flex flex-col"
                 >
                   {/* Stars */}
-                  <div className="flex gap-0.5 mb-5">
+                  <div
+                    className="flex gap-0.5 mb-5"
+                    data-atomic-id="al7wkri"
+                    data-atomic-instance={i}>
                     {[1, 2, 3, 4, 5].map((s) => (
                       <Star
                         key={s}
@@ -630,11 +594,20 @@ export default function HomePage() {
                       />
                     ))}
                   </div>
-                  <p className="text-slate-300 text-sm leading-relaxed flex-1 mb-6">
+                  <p
+                    className="text-slate-300 text-sm leading-relaxed flex-1 mb-6"
+                    data-atomic-id="a8p054d"
+                    data-atomic-instance={i}>
                     &ldquo;{t_item.text}&rdquo;
                   </p>
-                  <div className="flex items-center gap-3 pt-5 border-t border-white/8">
-                    <div className="w-10 h-10 rounded-full overflow-hidden bg-gradient-to-br from-[#6366F1] to-[#22D3EE] flex items-center justify-center flex-shrink-0">
+                  <div
+                    className="flex items-center gap-3 pt-5 border-t border-white/8"
+                    data-atomic-id="alaq90i"
+                    data-atomic-instance={i}>
+                    <div
+                      className="w-10 h-10 rounded-full overflow-hidden bg-gradient-to-br from-[#6366F1] to-[#22D3EE] flex items-center justify-center flex-shrink-0"
+                      data-atomic-id="a1kyskkl"
+                      data-atomic-instance={i}>
                       <img
                         src={t_item.avatar}
                         alt={t_item.name}
@@ -642,11 +615,18 @@ export default function HomePage() {
                         onError={(e) => {
                           (e.currentTarget as HTMLImageElement).style.display = "none";
                         }}
-                      />
+                        data-atomic-id="ad47caq"
+                        data-atomic-instance={i} />
                     </div>
-                    <div>
-                      <p className="text-white text-sm font-semibold">{t_item.name}</p>
-                      <p className="text-slate-400 text-xs">{t_item.role}</p>
+                    <div data-atomic-id="a1l07ep3" data-atomic-instance={i}>
+                      <p
+                        className="text-white text-sm font-semibold"
+                        data-atomic-id="a2oxidz"
+                        data-atomic-instance={i}>{t_item.name}</p>
+                      <p
+                        className="text-slate-400 text-xs"
+                        data-atomic-id="a2oxk2h"
+                        data-atomic-instance={i}>{t_item.role}</p>
                     </div>
                   </div>
                 </motion.div>
@@ -655,10 +635,14 @@ export default function HomePage() {
           </motion.div>
         </div>
       </section>
-
       {/* ── CTA Banner ────────────────────────────────────────────────────── */}
-      <section id="cta" className="py-20 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        id="cta"
+        className="py-20 relative overflow-hidden"
+        data-atomic-id="awswpez">
+        <div
+          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+          data-atomic-id="a6vjfwc">
           <motion.div
             variants={scaleIn}
             initial="hidden"
@@ -674,13 +658,19 @@ export default function HomePage() {
                   "radial-gradient(circle at 20% 50%, white 1px, transparent 1px), radial-gradient(circle at 80% 20%, white 1px, transparent 1px)",
                 backgroundSize: "40px 40px",
               }}
-            />
-            <div className="absolute top-0 right-0 w-80 h-80 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-            <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#22D3EE]/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
+              data-atomic-id="a18v4q90" />
+            <div
+              className="absolute top-0 right-0 w-80 h-80 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"
+              data-atomic-id="a18wjkdi" />
+            <div
+              className="absolute bottom-0 left-0 w-64 h-64 bg-[#22D3EE]/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"
+              data-atomic-id="a18xyei0" />
 
-            <div className="relative">
+            <div className="relative" data-atomic-id="a18zd8mi">
               <motion.div variants={fadeInUp}>
-                <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/25 text-white text-sm font-medium mb-6">
+                <span
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/25 text-white text-sm font-medium mb-6"
+                  data-atomic-id="a1p24uv3">
                   <Sparkles className="w-4 h-4" />
                   {t("cta.badge")}
                 </span>
@@ -725,10 +715,14 @@ export default function HomePage() {
                   { icon: Shield, text: "Secure Checkout" },
                   { icon: Truck, text: "Free 2-Day Shipping" },
                   { icon: RotateCcw, text: "30-Day Returns" },
-                ].map((badge) => {
+                ].map((badge, __atomicIdx) => {
                   const Icon = badge.icon;
                   return (
-                    <div key={badge.text} className="flex items-center gap-2 text-white/80 text-sm">
+                    <div
+                      key={badge.text}
+                      className="flex items-center gap-2 text-white/80 text-sm"
+                      data-atomic-id="akjmtd2"
+                      data-atomic-instance={__atomicIdx}>
                       <Icon className="w-4 h-4" />
                       {badge.text}
                     </div>
