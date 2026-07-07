@@ -25,7 +25,7 @@ const featuredProducts = [
     originalPrice: 39.99,
     rating: 4.8,
     reviewCount: 312,
-    image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MPL43?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1698168621764",
+    image: "https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/f9ade409-f68b-4212-93d9-4ef91ad95a33/57a772fd51bc4d448380871e7ce7c303.png",
     badge: "Best Seller",
     badgeColor: "bg-[#6366F1]",
     description: "240W fast charging, 10 Gbps data, 30k-bend rated.",
@@ -596,7 +596,9 @@ export default function HomePage() {
                     className="text-slate-300 text-sm leading-relaxed flex-1 mb-6"
                     data-atomic-id="a8p054d"
                     data-atomic-instance={i}
-                    style={i === 1 ? {
+                    style={i === 2 ? {
+                      fontSize: "18px"
+                    } : i === 1 ? {
                       color: "#c35b22"
                     } : undefined}>{i === 0 ? "“The GaN charger is a game-changer. I travel with one brick instead of three and my laptop charges faster than ever." : t_item.text}</p>
                   <div
