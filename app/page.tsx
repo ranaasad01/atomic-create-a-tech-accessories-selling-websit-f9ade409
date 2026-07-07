@@ -421,9 +421,7 @@ export default function HomePage() {
                 </p>
                 <h2
                   className="text-4xl font-extrabold tracking-tight text-white"
-                  data-atomic-id="a11qa4ao">
-                  {t("featured.heading")}
-                </h2>
+                  data-atomic-id="a11qa4ao">Best sellers this month across globe</h2>
                 <p
                   className="text-slate-400 mt-2 max-w-lg text-pretty"
                   data-atomic-id="aotj5qw">
