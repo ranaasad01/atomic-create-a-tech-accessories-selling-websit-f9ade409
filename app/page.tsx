@@ -595,9 +595,7 @@ export default function HomePage() {
                   <p
                     className="text-slate-300 text-sm leading-relaxed flex-1 mb-6"
                     data-atomic-id="a8p054d"
-                    data-atomic-instance={i}>
-                    &ldquo;{t_item.text}&rdquo;
-                  </p>
+                    data-atomic-instance={i}>{i === 0 ? "“The GaN charger is a game-changer. I travel with one brick instead of three and my laptop charges faster than ever." : t_item.text}</p>
                   <div
                     className="flex items-center gap-3 pt-5 border-t border-white/8"
                     data-atomic-id="alaq90i"
